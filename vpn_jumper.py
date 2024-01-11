@@ -9,7 +9,7 @@ FAIL_CONDITION = 3
 T1_COUNTRIES = ["CH", "IS", "SE", "RO", "DE", "ES", "AT", "GR"]
 T2_COUNTRIES = ["PT", "IT", "IE", "NL", "BE", "LU", "DK", "NO", "FI", "CZ", "HU", "HR", "MT", "RS"]
 T3_COUNTRIES = ["FR", "BR", "CL", "CO", "EE", "LV", "LT", "PL", "HK", "IN", "MD", "MA", "MK", "SG", "SK", "SL", "ZA", "VN"]
-COUNTRY_LIST = T1_COUNTRIES + T2_COUNTRIES #+ T3_COUNTRIES
+COUNTRY_LIST = T1_COUNTRIES #+ T2_COUNTRIES + T3_COUNTRIES
 
 previousCountry = ""
 failCount = 0
